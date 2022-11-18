@@ -1,0 +1,20 @@
+
+--Registration--Admin
+SSN=545-23-5160
+userName=Zeynepp
+email= team19@gmail.com
+password=06Zeynep06&
+
+--Registration--Doctor
+SSN=123-12-1112
+UserName=Dr.Zeynep
+email=zynpsarkaya@gmail.com
+password=06Zeynep06&
+ID=304915
+
+--Registration--Patient
+SSN=123-45-4342
+UserName=Patient.Zeynep
+email=team1919@gmail.com
+password=06Zeynep06&
+ID=304276
