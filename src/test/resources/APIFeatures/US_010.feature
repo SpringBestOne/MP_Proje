@@ -1,13 +1,14 @@
-#Get all registrant information using swagger and validate them
-#Create registrants using api and validate
-#Validate registrant SSN ids with DB
 
-Feature: US01 API Test
 
-  Scenario: US01 API TEST
 
-    Given Nid set the path params for register
-    And   Nid enters expected data for register
-    And   Nid sends request and get the response
-    And   Nid save all API information for register
-    Then  Nid verify informations for registe
+@ApiZey
+Feature: US010 API Test
+
+  Scenario: US010 API TEST
+
+    Given set the path params for doc login
+    When  User Doc send GET Request
+    Then  User Doc can see their appointments list and time slots on My Appointments
+    And   User Doc can see patient id, start date, end date, status
+
+

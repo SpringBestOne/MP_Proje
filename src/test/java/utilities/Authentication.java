@@ -1,4 +1,5 @@
 package utilities;
+import baseUrl.MedunnaBaseUrl;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
@@ -9,12 +10,11 @@ import java.util.Map;
 
 import static io.restassured.RestAssured.given;
 
-public class Authentication {
-    //    public static void main(String[] args) {
-//
-//        String guncelToken = generateToken();
-//        System.out.println(guncelToken);
-//    }
+public class Authentication extends MedunnaBaseUrl {
+     //  public static void main(String[] args) {
+     //      String guncelToken = generateToken();
+     //      System.out.println(guncelToken);
+     //  }
 
 
     public static String generateToken() {

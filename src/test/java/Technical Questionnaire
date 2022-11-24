@@ -1,0 +1,27 @@
+
+
+Primary key :Ensures that a column does not contain NULL and that data in the column is UNİQUE. (NOT NULL - UNİQUE) Foreign key: Used to  reference a primary key in another table. In this way, we establish a relationship between the tables.
+
+inner join: returns common data. left join: returns all data of the first table.
+
+1. select * from Employee where FirstName like 'J%';
+2.select Employee.FirstName, Employee.LastName, Payments.value
+from Payments
+left Join Employee on Employee.EmployeeID = Payements.EmployeeID
+order by Employee.EmployeeID
+select Sum(Value) from Payments Group by EmployeeID;
+3.select Employee.Firstname, Employee.LastName AS max(salary) from Employee order by October;
+4.Add a column named birthdate to the Employee table
+
+Try is used to write transactions that we are trying to block buut think are risky.
+Parenthesis after catch we expect to encounter exception uses to tell Java.
+Catch Blog: If the exception we tell Java happens.
+We can write the exception we expect to encounter in the parenthesis at the front of the catch blog or
+if we want it to kick in on all kinds of exceptions, We can write exception which is the parent of all exceptions.
+
+
+In selenium locator is a mens of finding an element in the html: id, name, className, xpath, css, linkText, partialLinkText, tagName
+
+Load Test: With the increasing number of users, it goes to the application and determines the maximum level.
+Stress test: It is constantly loaded into the system with a very high number of users, suffocating the system.
+
