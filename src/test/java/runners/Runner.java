@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/DBFeatures",
         glue = "stepDefinitions",
-        tags = "@ZeyDB", //2 tagi ayni anda çalistirmak istersek "@gp1 or @gp2" gibi..
+        tags = "@Gulsah", //2 tagi ayni anda çalistirmak istersek "@gp1 or @gp2" gibi..
         dryRun =false
 
         /*

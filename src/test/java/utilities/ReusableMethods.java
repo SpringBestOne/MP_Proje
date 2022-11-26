@@ -180,5 +180,11 @@ public class ReusableMethods {
 
     }
 
+    public static void bulveTikla(WebElement webElement) {
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(),Duration.ofSeconds(10));
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(webElement));
+        ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].click();", webElement);
+    }
+
 
 }
